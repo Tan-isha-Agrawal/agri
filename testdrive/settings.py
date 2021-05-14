@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-0slt(i^0pr(&l(0mdv677@%9-15qbsr2)osr&6z5nl^sawr!85'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['agriprediction.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
